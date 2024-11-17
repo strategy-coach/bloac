@@ -21,7 +21,7 @@ BLOaC is built on foundational principles that align with modern GitOps practice
 BLOaC organizes business processes into distinct lifecycles, each representing a functional area. These lifecycles can be implemented in repositories with structured content (e.g., Markdown files with frontmatter), tracked via issues, and automated with CI/CD pipelines.
 
 - Marketing Lifecycles. The marketing lifecycle encompasses activities to attract, nurture, and convert leads. BLOaC structures this lifecycle into repositories with campaigns, content, and performance analytics.
-- Sales Lifecycles. The sales lifecycle tracks the journey of leads through qualification, proposal, negotiation, and closing. BLOaC enables granular tracking of deals and automates follow-ups and reporting.
+- Sales Lifecycles (["CRM as Code"](./sales.md)). The sales lifecycle tracks the journey of leads through qualification, proposal, negotiation, and closing. BLOaC enables granular tracking of deals and automates follow-ups and reporting.
 - Customer Success Lifecycles. Onboarding, engagement, renewals, and upselling are managed through BLOaC. Customer health metrics and lifecycle stages are stored as structured data, with automated alerts for at-risk accounts.
 - Customer Support Lifecycles. Support tickets, FAQs, and troubleshooting guides are managed in repositories, with issues tracking resolution status. Automation ensures timely responses and reporting.
 - Professional Services Lifecycles. Custom solutions, consulting projects, and deliverables are tracked as issues and stored in repositories. BLOaC provides a structured approach to managing milestones and collaboration.
