@@ -37,6 +37,8 @@ While BLOaC relies on GitOps infrastructure, it recognizes the challenges non-te
 
 This approach maintains the flexibility and scalability of BLOaC while ensuring usability for all team members.
 
+See: [GitOps as BLOaC Infrastructure, Not UX](./infrastructure.md)
+
 ## Unified Role Visibility: ICs and MPs
 
 BLOaC enables transparent role identification for **Individual Contributors (ICs)** and **Management Personnel (MPs)**. ICs create intellectual property (e.g., writing Markdown files or coding features), while MPs provide oversight through pull requests, reviews, and approvals.
@@ -50,6 +52,8 @@ PLM systems like GitHub make it easy to distinguish between these roles, offerin
 
 By leveraging PLM systems, BLOaC ensures a clear understanding of who is creating and who is guiding, enabling advanced analytics and compliance.
 
+See: [BLOaC Staff Roles](./staff-roles.md)
+
 ### Analytics and Querying with BLOaC
 
 A common challenge in BLOaC is aggregating and analyzing data spread across Markdown files, Issues, and repository metadata. Tools like `surveilr` address this by ingesting content into a **uniform SQL schema**, enabling powerful querying and analytics.
@@ -62,6 +66,8 @@ A common challenge in BLOaC is aggregating and analyzing data spread across Mark
 
 This integration bridges the gap between unstructured Git content and structured data systems, unlocking insights while preserving the flexibility of BLOaC.
 
+See: [`surveilr` for BLOaC](./infrastructure.md#solution-leveraging-tools-like-surveilr)
+
 ## Extending BLOaC Beyond Core Lifecycles
 
 BLOaC is not limited to marketing, sales, and customer success. It can be extended to manage:
@@ -73,6 +79,8 @@ BLOaC is not limited to marketing, sales, and customer success. It can be extend
 - Strategic Planning and Innovation  
 
 Each lifecycle is treated as code, with repositories storing tasks, policies, and workflows, and CI/CD pipelines automating key processes.
+
+See: [BLOaC Lifecycles](./lifecycles.md)
 
 ## Challenges and Solutions in BLOaC
 
