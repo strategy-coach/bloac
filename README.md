@@ -6,6 +6,8 @@ Using tools like GitHub, GitLab, or BitBucket as the foundation, BLOaC treats bu
 
 This white paper explores the BLOaC framework, detailing its applications across various business lifecycles, the challenges it addresses, and the tools and strategies that make it practical and impactful.
 
+<mark>BLOaC assumes the use of [Netspective Unified Solutions Infrastructure (USI)](https://github.com/netspective/enterprise-architecture).</mark>
+
 ## The Principles of BLOaC
 
 BLOaC is built on foundational principles that align with modern GitOps practices:
